@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero .container {
+    width: 100%;
+    height: 100%;
+}
+
+
+.heroBg1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.heroBg2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.heroLastSlide {
+    width: calc(100% - 670px);
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-shadow: -39px 0px 72px 17px #000000b0;
+}
+
+
+
+
+.heroLogo {
+    width: 900px;
+    position: absolute;
+    bottom: 100px;
+    left: 400px;
+    z-index: 10;
+}
+
+
+
+
+.heroTextCon {
+    width: 500px;
+    position: absolute;
+    top: 300px;
+    right: 0px;
+    background-color: rgba(4, 61, 93, 0.75);
+    border-radius: 2px;
+    padding: 15px;
+}
+.heroTextCon h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.heroTextCon p {
+    font-size: 16px;
+    color: #fff;
+}
+
+
+
+
+.content {
+    height: 200vh;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 1550px) {
+    .heroLogo {
+        width: 700px;
+        left: 200px;
+    }
+    .heroLastSlide {
+        width: calc(100% - 408px);
+    }
+    .heroTextCon {
+        top: 200px;
+    }
+    .heroTextCon h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+@media (max-width: 1300px) {
+    .heroTextCon {
+        top: 300px;
+    }
+    .heroTextCon h3 {
+        font-size: 20px;
+    }
+}
+
+
+
+
+@media (max-width: 950px) {
+    .heroLogo {
+        width: 450px;
+        left: 80px;
+        bottom: 50px;
+    }
+
+    .heroLastSlide {
+        width: calc(100% - 215px);
+    }
+
+    .heroTextCon {
+        width: 400px;
+        top: 200px;
+    }
+}
+
+
+
+
+
+@media (max-width: 650px) {
+    .heroLogo {
+        width: 275px;
+        left: 40px;
+        bottom: 35px;
+    }
+    .heroLastSlide {
+        width: calc(100% - 122px);
+        box-shadow: 2px 0px 65px 17px #000000b0;
+    }
+
+
+    .heroTextCon {
+        width: 350px;
+    }
+    .heroTextCon h3 {
+        font-size: 15px;
+        font-weight: 500;
+    }
+}
+
+
+
+
+
+@media (max-width: 500px) {
+    .heroTextCon {
+        top: 150px;
+    }
+}
